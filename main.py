@@ -15,9 +15,9 @@ import phonenumbers
 from PyQt5.QtCore import QThread, QObject
 import sqlite3
 from functions import *
-import config
-api_id = config.api_id
-api_hash = config.api_hash
+#import config
+api_id = 20958668
+api_hash = cd5e18bee2445916fe443bcfb2ce083a
 
 client = TelegramClient('gui/telegram', api_id, api_hash)    
 client.connect()
