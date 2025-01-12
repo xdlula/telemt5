@@ -5,7 +5,7 @@ import csv
 #from functools import reduce
 import numpy as np
 import sys
-import pandas as pd
+# import pandas as pd
 import MetaTrader5 as mt5
 from PyQt5.uic import loadUi
 import asyncio
